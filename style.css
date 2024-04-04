@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#offcanvasWithBothOptions {
+    width: 300px;
+    max-height: 100vh;
+}
+
+.offcanvas-title {
+    margin: auto;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.offcanvas-body ul li {
+    list-style: none;
+}
+
+.offcanvas-body ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+.container h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+#card .row .card {
+    background: rgb(32, 46, 98);
+    background: linear-gradient(90deg,
+            rgba(32, 46, 98, 1) 0%,
+            rgba(70, 184, 252, 1) 100%);
+   border: none;
+}
+#card .row{
+    margin-top: 5%;
+}
+#other-card .row{
+    border: 2px dashed #b3b3b3;
+    margin-top: 2%;
+}
+#other-card .row h4{
+    font-weight: 700;
+}
+#other-card .row p{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(104, 104, 221);
+}
+#other-card h3 hr{
+    border-top: 3px solid rgb(59, 155, 194);
+    width: 80%;
+}
+#table{
+    margin-top: 5%;
+}
+#table .table{
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+#table .table th{
+    padding: 20px;
+}
+#footer{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+#footer .row .list-unstyled li a {
+    text-decoration: none;
+    color: #555555;
+    transition: all 1s ease-in-out;
+}
+#footer .row .list-unstyled li a:hover{
+    text-decoration: underline;
+}
+#b-logo{
+    margin-top: 5%;
+    
+}
+#b-logo h1{
+    text-align: center;
+}
+#b-logo .text-secondary{
+    text-align: center;
+}
